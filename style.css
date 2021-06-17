@@ -1,0 +1,78 @@
+body {
+    padding: 50px;
+    background: #F3F3F3;
+    color: #0F0F0F;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+
+.inputs-block {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.input-item {
+    margin-right: 35px;
+}
+
+.input-item-title {
+    font-weight: 600;
+}
+
+.input {
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 5px 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.33);
+}
+
+.btn-wrapper button {
+    height: 45px;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.33);
+}
+
+.error {
+    border: 2px solid #F33834;
+}
+
+
+.eng-word {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-right: 30px;
+    display: block;
+}
+
+.rus-word {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.btn-delete {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+}
