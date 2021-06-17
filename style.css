@@ -71,8 +71,40 @@ h2 {
     font-size: 20px;
 }
 
+
+
 .btn-delete {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+    border: 0;
+    color: #fff;
+    align-items: center;
+    margin-left: 20px;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 17px;
+    transition: all 1s;
+}
+
+.btn-delete:hover {
+    background: linear-gradient(45deg, transparent 5%, #eeee 5%);
+    color: #FF013C;
+    border: 1px solid #c4c4c4;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+td {
+    display: flex;
+    justify-content: start;
+}
+
+td::first-letter {
+    text-transform: uppercase;
 }
